@@ -1,5 +1,5 @@
 # Abiotic Factor Mappings
-Storage for the (hopefully) current mapping files for modding Abiotic Factor.
+Storage for the current mapping files for modding Abiotic Factor.
 
 # Useful Links
 [Modding Guide](https://hackmd.io/@Swept/abioticfactormodding) |
@@ -15,3 +15,6 @@ In the rare case the release isn't up to date, you can generate the mappings you
 2. Start game, enter world
 3. Press Ctrl + Numpad 6
 4. Check under `~\path\AbioticFactor\AbioticFactor\Binaries\Win64\ue4ss` for a file called Mappings.usmap
+
+If the Mappings aren't the latest release and you don't have a numpad, go to UE4SS folder -> Mods -> Keybinds -> Scripts-> Main.lua
+And edit the DumpUSMAP as wished. Example : NUM_SIX -> SIX (for top row).
